@@ -1,26 +1,6 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-body{
-  background-color: #0A192F;
-}
 
-.main-nav-list{
-  display: flex;
-  /* flex-direction: row; */
-  gap: 2rem;
-  list-style: none;
-  text-decoration: none;
-  
-}
 
-.main-nav-link, .main-nav-link:hover{
-  color: white;
-  font-family: 'Roboto', sans-serif;
-}
 
 
 

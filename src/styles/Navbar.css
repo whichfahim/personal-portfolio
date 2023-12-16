@@ -1,0 +1,24 @@
+.main-nav-list{
+    display: flex;
+    /* flex-direction: row; */
+    gap: 2rem;
+    list-style: none;
+    margin-right: 2rem;
+  }
+
+  .logo{
+    height: 5rem;
+    margin-left: 2rem;
+  }
+  
+  .main-nav-link, .main-nav-link:hover{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Code', monospace;
+    text-decoration: none;
+
+  }
+
+  .u-txt-color-secondary{
+    color: #64FFDA;
+  }
