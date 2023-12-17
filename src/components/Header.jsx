@@ -11,7 +11,8 @@ function Header() {
         {/* </div> */}
         <div className="heading-text-container">
           <p className="heading-text">
-            I like to think this is where art and code combine to make magic.
+            I like to think this is where art and code combine to make frontend
+            magic.
           </p>
         </div>
       </div>
