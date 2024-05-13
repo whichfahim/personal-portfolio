@@ -1,0 +1,21 @@
+@import "./_variables";
+
+.btn-primary {
+  background-color: transparent;
+  color: $color-secondary;
+  padding: 10px 1.5rem;
+  border: 1px solid $color-secondary;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+
+  &:hover {
+    color: $color-accent;
+    // background: rgba(100, 255, 219, 0.25); /*  10% opaque green */
+    background-color: $color-secondary;
+  }
+}

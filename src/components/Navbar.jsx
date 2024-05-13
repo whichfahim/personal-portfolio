@@ -11,17 +11,17 @@ function Navbar() {
         <ol className="main-nav-list">
           <li>
             <a className="main-nav-link" href="#">
-              <span className="u-txt-color-secondary"></span> Projects
-            </a>{" "}
-          </li>
-          <li>
-            <a className="main-nav-link" href="#">
-              <span className="u-txt-color-secondary"></span> Experience
+              Projects
             </a>
           </li>
           <li>
             <a className="main-nav-link" href="#">
-              <span className="u-txt-color-secondary"></span> Certifications
+              Experience
+            </a>
+          </li>
+          <li>
+            <a className="main-nav-link" href="#">
+              Certifications
             </a>
           </li>
         </ol>
