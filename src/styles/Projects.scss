@@ -1,0 +1,39 @@
+@import "./_variables";
+@import "./_utilities";
+
+.section-projects {
+  position: relative;
+  background-color: $color-accent;
+  height: 90vh;
+  text-align: center;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-heading {
+  font-weight: 700;
+}
+
+.project-subheading {
+  font-weight: 300;
+}
+
+.project-img {
+  width: 75%;
+}
+
+.project-description {
+  width: 33%;
+  text-align: left;
+  color: $color-grey;
+  font-weight: 300;
+}
+
+.project-doc--icons {
+  display: flex;
+  gap: 1rem;
+}

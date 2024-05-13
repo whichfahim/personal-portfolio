@@ -1,11 +1,18 @@
-.u-color-primary {
+@import "./_variables";
+
+.u-text-color-primary {
   color: #580241;
 }
 
-.u-color-secondary {
+.u-text-color-secondary {
   color: #ad8cc6;
 }
 
-.u-color-tertiary {
+.u-text-color-tertiary {
   color: #9dc8e2;
+}
+
+.u-heading-secondary {
+  color: $color-grey;
+  margin-bottom: 4rem;
 }
