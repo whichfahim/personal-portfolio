@@ -1,0 +1,9 @@
+@import "./_variables";
+
+.section-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  background: linear-gradient(to bottom, $color-tertiary, $color-secondary);
+}
