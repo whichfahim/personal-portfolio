@@ -3,15 +3,17 @@
 
 .section-projects {
   position: relative;
-  background-color: $color-accent;
-  height: 90vh;
+  background-color: #dbdbdb;
+  height: fit-content;
   text-align: center;
+  padding: 4rem 0rem;
 }
 
 .project-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 4rem;
 }
 
 .project-heading {
@@ -24,6 +26,14 @@
 
 .project-img {
   width: 75%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+  &:hover {
+  }
 }
 
 .project-description {
@@ -33,7 +43,11 @@
   font-weight: 300;
 }
 
-.project-doc--icons {
+.project-doc--icons-container {
   display: flex;
   gap: 1rem;
+}
+
+.project-doc--icon {
+  height: 1.2rem;
 }
