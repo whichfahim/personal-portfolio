@@ -3,4 +3,15 @@
 .section-experience {
   height: 90vh;
   background: linear-gradient(to bottom, $color-accent, $color-tertiary);
+  text-align: center;
+}
+
+.nav-tabs-container {
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: left; */
+  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
 }
