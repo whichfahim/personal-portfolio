@@ -1,9 +1,10 @@
 @import "./_variables";
 
 .section-experience {
-  height: 90vh;
+  height: 80vh;
   background: linear-gradient(to bottom, $color-accent, $color-tertiary);
   text-align: center;
+  padding: 4rem;
 }
 
 .nav-tabs-container {
@@ -14,4 +15,34 @@
   width: 75%;
   margin: 0 auto;
   text-align: left;
+}
+
+#myTab {
+  margin-bottom: 1rem;
+}
+
+#myTabContent {
+  color: $color-primary;
+}
+
+.nav-item button:hover {
+  background-color: #bbb;
+}
+
+.nav-tabs .nav-link {
+  border-radius: 25px 25px 0 0 !important;
+  padding: 1rem 2rem;
+  font-weight: 900;
+}
+
+.nav-tabs .nav-link.active {
+  color: white !important;
+  background-color: $color-primary !important;
+  /* border-color: #dee2e6 #dee2e6 #fff; */
+}
+
+.nav-tabs .nav-link {
+  color: rgba(173, 140, 198, 0.5) !important;
+  background-color: $color-accent !important;
+  /* border-color: #dee2e6 #dee2e6 #fff; */
 }

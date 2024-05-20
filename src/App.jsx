@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
+      <About />
       <Projects />
       <Experience />
       <Footer />

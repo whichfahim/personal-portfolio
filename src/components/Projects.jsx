@@ -2,13 +2,13 @@ import "../styles/Projects.scss";
 
 function Projects() {
   return (
-    <section className="section-projects">
+    <section className="section-projects" id="projects">
       <h1 className="u-heading-secondary">Some cool things I've built</h1>
       <div className="project-container">
         <div className="project-img-container">
           <img
             src="src\assets\img\geniotech.png"
-            alt="geniotech cover image"
+            alt="geniotech cover"
             className="project-img"
           />
         </div>

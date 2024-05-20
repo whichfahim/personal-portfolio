@@ -10,18 +10,18 @@ function Navbar() {
       <div className="main-nav">
         <ol className="main-nav-list">
           <li>
-            <a className="main-nav-link" href="#">
+            <a className="main-nav-link" href="#about">
+              About
+            </a>
+          </li>
+          <li>
+            <a className="main-nav-link" href="#projects">
               Projects
             </a>
           </li>
           <li>
-            <a className="main-nav-link" href="#">
+            <a className="main-nav-link" href="#experience">
               Experience
-            </a>
-          </li>
-          <li>
-            <a className="main-nav-link" href="#">
-              Certifications
             </a>
           </li>
         </ol>

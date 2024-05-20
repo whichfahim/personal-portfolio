@@ -3,6 +3,11 @@
 
 .section-projects {
   position: relative;
+  // background: linear-gradient(
+  //   to bottom,
+  //   $color-secondary 20%,
+  //   $color-accent 80%
+  // );
   background-color: $color-accent;
   height: fit-content;
   text-align: center;

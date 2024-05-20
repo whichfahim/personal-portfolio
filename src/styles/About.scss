@@ -1,0 +1,45 @@
+@import "./_variables";
+
+.section-about {
+  padding: 4rem 0;
+  /* padding: 4rem 0rem; */
+  height: 95vh;
+  background: linear-gradient(
+    to bottom,
+    #dbdbdb 0%,
+    rgba(173, 140, 198, 0.5) 33%,
+    rgba(157, 200, 226, 0.75) 67%,
+    #dbdbdb 100%
+  );
+  text-align: center;
+}
+
+.about-me-container {
+  display: flex;
+  align-items: center;
+  /* width: 60%; */
+  margin: 0 auto;
+  text-align: left;
+  /* height: 71vh; */
+  width: 75%;
+  gap: 4rem;
+}
+
+.about-img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 7.5rem;
+  -webkit-border-radius: 7.5rem;
+  -moz-border-radius: 7.5rem;
+  -ms-border-radius: 7.5rem;
+  -o-border-radius: 7.5rem;
+}
+
+.about-me-list {
+  color: $color-primary;
+  list-style: none;
+
+  & > li {
+    margin-bottom: 1rem;
+  }
+}
