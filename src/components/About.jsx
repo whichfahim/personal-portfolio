@@ -6,7 +6,7 @@ function About() {
       <h1 className="u-heading-secondary">About me</h1>
       <div className="about-me-container">
         <img
-          src="src\assets\img\me.jpeg"
+          src=".\src\assets\img\me.jpeg"
           alt="self portrait"
           className="about-img"
         />
