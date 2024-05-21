@@ -23,6 +23,13 @@
 
 #myTabContent {
   color: $color-primary;
+  background-color: rgba(136, 146, 176, 0.25);
+  padding: 2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .nav-item button:hover {

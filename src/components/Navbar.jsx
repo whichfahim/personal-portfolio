@@ -8,7 +8,7 @@ function Navbar() {
         <img className="logo" src={Logo} />
       </div>
       <div className="main-nav">
-        <ol className="main-nav-list">
+        <ul className="main-nav-list">
           <li>
             <a className="main-nav-link" href="#about">
               About
@@ -24,7 +24,7 @@ function Navbar() {
               Experience
             </a>
           </li>
-        </ol>
+        </ul>
       </div>
     </div>
   );

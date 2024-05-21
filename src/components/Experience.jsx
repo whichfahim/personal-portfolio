@@ -117,16 +117,8 @@ function Experience() {
                   ReactQuery to integrate REST APIs.
                 </li>
                 <li>
-                  Executed advanced responsive design techniques, including
-                  media queries, desktop-first approach, and rem units.
-                </li>
-                <li>
                   Integrated feedback from Business Analysts, Quality Assurance,
                   and team members into project deliverables.
-                </li>
-                <li>
-                  Implemented 7-1 CSS architecture, emphasizing component-based
-                  design, BEM methodology, and reusable code.
                 </li>
               </li>
             </ul>

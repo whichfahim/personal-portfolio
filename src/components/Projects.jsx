@@ -34,21 +34,27 @@ function Projects() {
             </li>
           </ul>
           <div className="project-doc--icons-container">
-            <a href="#" target="__blank">
+            <a
+              href="https://www.figma.com/proto/bffZzVzfgH1bNkbBNNhFJS/Geniotech-v0.2?page-id=1%3A3&type=design&node-id=5-2&viewport=1028%2C142%2C0.36&t=dd8cDrRMi6G4L30i-1&scaling=min-zoom&starting-point-node-id=7%3A149"
+              target="__blank"
+            >
               <img
                 src="src\assets\icons\Figma.png"
                 className="project-doc--icon"
                 alt="figma icon"
               />
             </a>
-            <a href="#" target="__blank">
+            <a
+              href="https://www.behance.net/gallery/197590325/Geniotech-Robotics-and-Programming-for-kids"
+              target="__blank"
+            >
               <img
                 src="src\assets\icons\Behance.png"
                 className="project-doc--icon"
                 alt="behance logo"
               />
             </a>
-            <a href="#" target="__blank">
+            <a href="https://github.com/whichfahim/GENIO-TECH" target="__blank">
               <img
                 src="src\assets\icons\Github.png"
                 className="project-doc--icon"
@@ -86,7 +92,10 @@ function Projects() {
             </li>
           </ul>
           <div className="project-doc--icons-container">
-            <a href="#" target="__blank">
+            <a
+              href="https://www.figma.com/proto/iqjjxBjJAgc4YeknnxhLAv/BackToPlay?page-id=&type=design&node-id=1-4&viewport=334%2C390%2C0.07&t=cGL1fTdBLh6zbFdI-1&scaling=min-zoom&starting-point-node-id=1%3A4"
+              target="__blank"
+            >
               <img
                 src="src\assets\icons\Figma.png"
                 className="project-doc--icon"
@@ -147,14 +156,17 @@ function Projects() {
                 alt="figma icon"
               />
             </a>
-            <a href="#" target="__blank">
+            <a
+              href="https://www.behance.net/gallery/139245067/Glass-Website-Redesign"
+              target="__blank"
+            >
               <img
                 src="src\assets\icons\Behance.png"
                 className="project-doc--icon"
                 alt="behance logo"
               />
             </a>
-            <a href="#" target="__blank">
+            <a href="https://whichfahim.github.io/glass/" target="__blank">
               <img
                 src="src\assets\icons\Github.png"
                 className="project-doc--icon"
