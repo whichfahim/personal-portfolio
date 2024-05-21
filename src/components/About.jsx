@@ -1,15 +1,12 @@
 import "../styles/About.scss";
+import { me } from "../assets/img/me.jpeg";
 
 function About() {
   return (
     <section className="section-about" id="about">
       <h1 className="u-heading-secondary">About me</h1>
       <div className="about-me-container">
-        <img
-          src="/assets/Img/me.jpeg"
-          alt="self portrait"
-          className="about-img"
-        />
+        <img src={me} alt="self portrait" className="about-img" />
         <ul className="about-me-list">
           <li>
             I am a passionate designer and web developer with a keen eye for
