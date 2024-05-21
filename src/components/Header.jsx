@@ -1,4 +1,8 @@
 import "../styles/Header.scss";
+import behance from "../assets/icons/Behance.png";
+import dribbble from "../assets/icons/Dribbble.png";
+import linkedin from "../assets/icons/LinkedIn.png";
+import github from "../assets/icons/Github.png";
 
 function Header() {
   return (
@@ -22,40 +26,28 @@ function Header() {
           target="__blank"
           className="socials__icon"
         >
-          <img
-            className="socials__icon--github"
-            src="src\assets\icons\Github.png"
-          />
+          <img className="socials__icon--github" src={github} />
         </a>
         <a
           href="https://www.linkedin.com/in/fahim-imtiaz/"
           target="__blank"
           className="socials__icon"
         >
-          <img
-            className="socials__icon--linkedin"
-            src="src\assets\icons\LinkedIn.png"
-          />
+          <img className="socials__icon--linkedin" src={linkedin} />
         </a>
         <a
           href="https://www.behance.net/fahimimtiaz3"
           target="__blank"
           className="socials__icon"
         >
-          <img
-            className="socials__icon--behance"
-            src="src\assets\icons\Behance.png"
-          />
+          <img className="socials__icon--behance" src={behance} />
         </a>
         <a
           href="https://dribbble.com/whichfahim"
           target="__blank"
           className="socials__icon"
         >
-          <img
-            className="socials__icon--dribbble"
-            src="src\assets\icons\Dribbble.png"
-          />
+          <img className="socials__icon--dribbble" src={dribbble} />
         </a>
         <div className="vertical"></div>
       </div>

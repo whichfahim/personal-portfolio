@@ -1,9 +1,12 @@
 import "../styles/Projects.scss";
+
 import behance from "../assets/icons/Behance.png";
-import dribbble from "../assets/icons/Dribbble.png";
 import figma from "../assets/icons/Figma.png";
-import linkedin from "../assets/icons/LinkedIn.png";
 import github from "../assets/icons/Github.png";
+
+import geniotech from "../assets/img/geniotech.png";
+import backtoplay from "../assets/img/backtoplay.png";
+import glasscosmetics from "../assets/img/glasscosmetics.png";
 
 function Projects() {
   return (
@@ -11,11 +14,7 @@ function Projects() {
       <h1 className="u-heading-secondary">Some cool things I've built</h1>
       <div className="project-container">
         <div className="project-img-container">
-          <img
-            src="src\assets\img\geniotech.png"
-            alt="geniotech cover"
-            className="project-img"
-          />
+          <img src={geniotech} alt="geniotech cover" className="project-img" />
         </div>
 
         <div className="project-description">
@@ -67,11 +66,7 @@ function Projects() {
       </div>
       <div className="project-container">
         <div className="project-img-container">
-          <img
-            src="src\assets\img\backtoplay.png"
-            alt="b2p cover image"
-            className="project-img"
-          />
+          <img src={backtoplay} alt="b2p cover" className="project-img" />
         </div>
 
         <div className="project-description">
@@ -118,11 +113,7 @@ function Projects() {
       </div>
       <div className="project-container">
         <div className="project-img-container">
-          <img
-            src="src\assets\img\glasscosmetics.png"
-            alt="glass cover image"
-            className="project-img"
-          />
+          <img src={glasscosmetics} alt="glass cover" className="project-img" />
         </div>
 
         <div className="project-description">
