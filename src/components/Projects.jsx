@@ -23,16 +23,24 @@ function Projects() {
           <p>May 2023 - October 2024</p>
           <ul>
             <li>
-              Lorem ipsum dolor sit amet consectetur. Curabitur lorem suscipit
-              purus hendrerit mi venenatis.
+              Collaborated with a cross-functional team of four developers to
+              develop an e-learning platform.
             </li>
             <li>
-              Tellus elementum elit ipsum sed nullam. Sit libero feugiat ipsum
-              ultrices lectus et sagittis arcu.
+              Designed a high-fidelity mockup using Figma for UI/UX
+              visualization.
             </li>
             <li>
-              Erat purus condimentum mi nisl. Vel sit sit egestas nibh vitae
-              nunc suspendisse tincidunt.
+              Integrated WebRTC for video calling, screen sharing, and chat
+              functionalities.
+            </li>
+            <li>
+              Implemented Square payment gateway using APIs to facilitate secure
+              transactions.
+            </li>
+            <li>
+              Utilized Django, Python, HTML, CSS, Bootstrap, and JavaScript for
+              development.
             </li>
           </ul>
           <div className="project-doc--icons-container">
@@ -73,16 +81,25 @@ function Projects() {
           <p>May 2023 - October 2024</p>
           <ul>
             <li>
-              Lorem ipsum dolor sit amet consectetur. Curabitur lorem suscipit
-              purus hendrerit mi venenatis.
+              Spearheaded the redesign of the company's employee assessment
+              application, enhancing usability and design.
             </li>
             <li>
-              Tellus elementum elit ipsum sed nullam. Sit libero feugiat ipsum
-              ultrices lectus et sagittis arcu.
+              Streamlined application navigation by reducing the number of pages
+              required for user interaction.
             </li>
             <li>
-              Erat purus condimentum mi nisl. Vel sit sit egestas nibh vitae
-              nunc suspendisse tincidunt.
+              Utilized React, JavaScript, HTML, CSS, Bootstrap, and ReactQuery
+              for REST API integration.
+            </li>
+            <li>
+              Incorporated feedback from Business Analysts (BA), Quality
+              Assurance (QA) teams, and development team members into the
+              development process.
+            </li>
+            <li>
+              Leveraged version control tools, specifically GitLab, to
+              collaborate effectively with a team of five developers.
             </li>
           </ul>
           <div className="project-doc--icons-container">
@@ -92,7 +109,7 @@ function Projects() {
             >
               <img src={figma} className="project-doc--icon" alt="figma icon" />
             </a>
-            <a href="#" target="__blank">
+            {/* <a href="#" target="__blank">
               <img
                 src={behance}
                 className="project-doc--icon"
@@ -105,7 +122,7 @@ function Projects() {
                 className="project-doc--icon"
                 alt="github logo"
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -122,22 +139,21 @@ function Projects() {
           <p>May 2023 - October 2024</p>
           <ul>
             <li>
-              Lorem ipsum dolor sit amet consectetur. Curabitur lorem suscipit
-              purus hendrerit mi venenatis.
+              Redesigned company website while maintaining brand-consistent
+              layout and colors.
             </li>
             <li>
-              Tellus elementum elit ipsum sed nullam. Sit libero feugiat ipsum
-              ultrices lectus et sagittis arcu.
+              Produced wireframes and progressed through low-fidelity to
+              high-fidelity mockups in Figma.
             </li>
-            <li>
-              Erat purus condimentum mi nisl. Vel sit sit egestas nibh vitae
-              nunc suspendisse tincidunt.
-            </li>
+            <li>Implemented development using HTML, CSS, SASS, and JS.</li>
+            <li>Ensured design responsiveness across all screen sizes.</li>
+            <li>Link to demo on Github: Glass Cosmetics Redesign</li>
           </ul>
           <div className="project-doc--icons-container">
-            <a href="#" target="__blank">
+            {/* <a href="#" target="__blank">
               <img src={figma} className="project-doc--icon" alt="figma icon" />
-            </a>
+            </a> */}
             <a
               href="https://www.behance.net/gallery/139245067/Glass-Website-Redesign"
               target="__blank"

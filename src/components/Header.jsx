@@ -11,9 +11,8 @@ function Header() {
         <h1 className="heading-main--title">Fahim Imtiaz</h1>
         <h1 className="heading-main--subtitle">I build things for the web</h1>
         <p className="heading-text">
-          Lorem ipsum dolor sit amet consectetur. Consequat ultrices enim
-          bibendum ipsum vel neque dui facilisis quis. In leo adipiscing tortor
-          elementum purus vita e venenatis.
+          I'm a software engineer with a focus on designing, prototyping, and
+          building exceptional and memorable digital experiences.
         </p>
         <a className="btn-primary" href="src\Resume.pdf" target="_blank">
           View resume
