@@ -1,4 +1,3 @@
-import "../styles/About.scss";
 import Me from "../assets/img/me.jpeg";
 
 function About() {

@@ -1,5 +1,3 @@
-import "../styles/Projects.scss";
-
 import behance from "../assets/icons/Behance.png";
 import figma from "../assets/icons/Figma.png";
 import github from "../assets/icons/Github.png";

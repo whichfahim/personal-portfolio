@@ -1,5 +1,3 @@
-import "../styles/Experience.scss";
-
 function Experience() {
   return (
     <section className="section-experience" id="experience">

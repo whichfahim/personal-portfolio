@@ -1,4 +1,3 @@
-import "../styles/Header.scss";
 import behance from "../assets/icons/Behance.png";
 import dribbble from "../assets/icons/Dribbble.png";
 import linkedin from "../assets/icons/LinkedIn.png";
