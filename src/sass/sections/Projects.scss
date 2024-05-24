@@ -15,7 +15,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
+
+  //is width <600
+  // @include respond(phone) {
+  //   flex-direction: column;
+  // }
+
+  @include respond(tab-port) {
+    flex-direction: column;
+  }
 }
 
 .project-heading {
@@ -26,8 +35,18 @@
   font-weight: 300;
 }
 
+.project-img-container {
+  margin-left: 4rem;
+
+  margin-bottom: 4rem;
+
+  @include respond(tab-port) {
+    margin-left: 0rem;
+  }
+}
+
 .project-img {
-  width: 75%;
+  width: 64%;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -47,20 +66,48 @@
     -ms-transform: translateY(-2px);
     -o-transform: translateY(-2px);
   }
+
+  @include respond(tab-port) {
+    width: 72%;
+  }
 }
 
 .project-description {
-  width: 33%;
+  width: 40%;
   text-align: left;
   color: $color-grey;
   font-weight: 300;
+  padding-right: 2rem;
+
+  // @include respond(phone) {
+  //   text-align: center;
+  //   font-size: 1.25rem;
+  // }
+
+  & > ul {
+    margin-bottom: 2rem;
+  }
+
+  @include respond(tab-port) {
+    text-align: center;
+    font-size: 1.25rem;
+    width: 64%;
+  }
 }
 
 .project-doc--icons-container {
   display: flex;
   gap: 1rem;
+
+  // @include respond(phone) {
+  //   justify-content: center;
+  // }
+
+  @include respond(tab-port) {
+    justify-content: center;
+  }
 }
 
 .project-doc--icon {
-  height: 1.2rem;
+  height: 1.5rem;
 }

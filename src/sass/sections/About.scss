@@ -10,17 +10,28 @@
     #dbdbdb 100%
   );
   text-align: center;
+
+  @include respond(tab-port) {
+    height: 80vh;
+  }
+
+  @include respond(phone) {
+    height: 90vh;
+  }
 }
 
 .about-me-container {
   display: flex;
   align-items: center;
-  /* width: 60%; */
   margin: 0 auto;
   text-align: left;
-  /* height: 71vh; */
   width: 75%;
   gap: 4rem;
+
+  @include respond(phone) {
+    flex-direction: column;
+    font-size: 1.25rem;
+  }
 }
 
 .about-img {

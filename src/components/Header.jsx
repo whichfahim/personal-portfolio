@@ -24,28 +24,44 @@ function Header() {
           target="__blank"
           className="socials__icon"
         >
-          <img className="socials__icon--github" src={github} />
+          <img
+            className="socials__icon socials__icon--github"
+            src={github}
+            alt="github icon"
+          />
         </a>
         <a
           href="https://www.linkedin.com/in/fahim-imtiaz/"
           target="__blank"
           className="socials__icon"
         >
-          <img className="socials__icon--linkedin" src={linkedin} />
+          <img
+            className="socials__icon socials__icon socials__icon--linkedin"
+            src={linkedin}
+            alt="linkedin icon"
+          />
         </a>
         <a
           href="https://www.behance.net/fahimimtiaz3"
           target="__blank"
           className="socials__icon"
         >
-          <img className="socials__icon--behance" src={behance} />
+          <img
+            className="socials__icon socials__icon--behance"
+            src={behance}
+            alt="behance icon"
+          />
         </a>
         <a
           href="https://dribbble.com/whichfahim"
           target="__blank"
           className="socials__icon"
         >
-          <img className="socials__icon--dribbble" src={dribbble} />
+          <img
+            className="socials__icon socials__icon--dribbble"
+            src={dribbble}
+            alt="dribbble icon"
+          />
         </a>
         <div className="vertical"></div>
       </div>

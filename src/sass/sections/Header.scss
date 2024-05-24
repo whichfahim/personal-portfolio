@@ -2,6 +2,10 @@
   position: relative;
   background: linear-gradient(to bottom, $color-tertiary, $color-accent);
   height: 90vh;
+
+  @include respond(tab-port) {
+    height: 60vh;
+  }
 }
 
 .heading-container {
@@ -52,6 +56,31 @@
   background: rgba(88, 2, 65, 0.5);
   border-radius: 50%;
   -webkit-border-radius: 50%;
+
+  @include respond(tab-land) {
+    top: 10%;
+    right: 30%;
+  }
+
+  @include respond(tab-port) {
+    top: 12%;
+    right: 27%;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+  }
+
+  @include respond(phone) {
+    top: 24%;
+    right: 12%;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+  }
 }
 
 .circle-secondary {
@@ -63,6 +92,31 @@
   background: rgba(173, 140, 198, 0.5);
   border-radius: 50%;
   -webkit-border-radius: 50%;
+
+  @include respond(tab-land) {
+    top: 22%;
+    right: 4%;
+  }
+
+  @include respond(tab-port) {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+  }
+
+  @include respond(phone) {
+    height: 26rem;
+    width: 26rem;
+    top: 27%;
+    right: -8%;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+  }
 }
 
 .circle-grey {
@@ -74,6 +128,24 @@
   background: rgba(136, 146, 176, 0.5);
   border-radius: 50%;
   -webkit-border-radius: 50%;
+
+  @include respond(tab-port) {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+  }
+
+  @include respond(phone) {
+    top: 36%;
+    right: 12%;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+  }
 }
 
 .socials {
@@ -86,6 +158,16 @@
   margin-left: 3.5rem;
   top: 60%;
   z-index: 10;
+
+  @include respond(tab-port) {
+    &__icon {
+      transform: scale(0.75);
+      -webkit-transform: scale(0.75);
+      -moz-transform: scale(0.75);
+      -ms-transform: scale(0.75);
+      -o-transform: scale(0.75);
+    }
+  }
 }
 
 .vertical {

@@ -3,6 +3,14 @@
   background: linear-gradient(to bottom, $color-accent, $color-tertiary);
   text-align: center;
   padding: 4rem;
+
+  @include respond(tab-port) {
+    height: 64vh;
+  }
+
+  @include respond(phone) {
+    height: 52vh;
+  }
 }
 
 .nav-tabs-container {
