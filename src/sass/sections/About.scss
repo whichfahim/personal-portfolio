@@ -1,7 +1,6 @@
 .section-about {
   padding: 4rem 0;
-  /* padding: 4rem 0rem; */
-  height: 95vh;
+  height: fit-content;
   background: linear-gradient(
     to bottom,
     #dbdbdb 0%,
@@ -10,14 +9,6 @@
     #dbdbdb 100%
   );
   text-align: center;
-
-  @include respond(tab-port) {
-    height: 80vh;
-  }
-
-  @include respond(phone) {
-    height: 90vh;
-  }
 }
 
 .about-me-container {

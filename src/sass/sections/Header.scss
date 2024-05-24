@@ -6,6 +6,10 @@
   @include respond(tab-port) {
     height: 60vh;
   }
+
+  @include respond(phone) {
+    height: 50vh;
+  }
 }
 
 .heading-container {

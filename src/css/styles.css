@@ -150,6 +150,9 @@ body {
   @media (max-width: 56.25em) {
     .section-header {
       height: 60vh; } }
+  @media (max-width: 37.5em) {
+    .section-header {
+      height: 50vh; } }
 
 .heading-container {
   color: white;
@@ -305,16 +308,9 @@ body {
 
 .section-about {
   padding: 4rem 0;
-  /* padding: 4rem 0rem; */
-  height: 95vh;
+  height: fit-content;
   background: linear-gradient(to bottom, #dbdbdb 0%, rgba(173, 140, 198, 0.5) 33%, rgba(157, 200, 226, 0.75) 67%, #dbdbdb 100%);
   text-align: center; }
-  @media (max-width: 56.25em) {
-    .section-about {
-      height: 80vh; } }
-  @media (max-width: 37.5em) {
-    .section-about {
-      height: 90vh; } }
 
 .about-me-container {
   display: flex;
@@ -391,7 +387,7 @@ body {
       margin-left: 0rem; } }
 
 .project-img {
-  width: 64%;
+  width: 72%;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -415,7 +411,7 @@ body {
       width: 72%; } }
 
 .project-description {
-  width: 40%;
+  width: 50%;
   text-align: left;
   color: #8892b0;
   font-weight: 300;

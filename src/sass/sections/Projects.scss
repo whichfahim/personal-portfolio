@@ -46,7 +46,7 @@
 }
 
 .project-img {
-  width: 64%;
+  width: 72%;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -73,7 +73,7 @@
 }
 
 .project-description {
-  width: 40%;
+  width: 50%;
   text-align: left;
   color: $color-grey;
   font-weight: 300;
@@ -87,6 +87,10 @@
   & > ul {
     margin-bottom: 2rem;
   }
+
+  // @include respond(tab-land) {
+  //   width: 50%;
+  // }
 
   @include respond(tab-port) {
     text-align: center;
