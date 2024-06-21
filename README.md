@@ -2,6 +2,8 @@
 
 Welcome to my portfolio website! This site showcases my work as a web developer, including projects I've completed, skills I've acquired, and my professional experience. 
 
+Here's a demo: https://whichfahim.github.io/personal-portfolio/
+
 ## Table of Contents
 
 - [About](#about)
