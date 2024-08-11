@@ -20,7 +20,7 @@
 }
 
 .heading-super {
-  color: $color-grey;
+  color: $color-grey-dark;
   font-family: "Fira Code", sans-serif;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .heading-main--subtitle {
-  color: #8892b0;
+  color: $color-primary;
   font-size: 3rem;
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -164,6 +164,16 @@
   z-index: 10;
 
   @include respond(tab-port) {
+    &__icon {
+      transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      -moz-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      -o-transform: scale(0.9);
+    }
+  }
+
+  @include respond(phone) {
     &__icon {
       transform: scale(0.75);
       -webkit-transform: scale(0.75);
