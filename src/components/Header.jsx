@@ -23,7 +23,7 @@ function Header() {
         </p>
         {/*<input type="button" value="PLAY" onClick={play()} />*/}
         {/*<audio id="audio" src="src/assets/audio/click-button-140881.mp3"></audio>*/}
-        <a className="btn-primary" href='#'>
+        <a className="btn-primary" href='#projects'>
           Check out my work!
         </a>
       </div>
