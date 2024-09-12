@@ -41,13 +41,15 @@
 
   margin-bottom: 4rem;
 
+  width: 50%;
+
   @include respond(tab-port) {
     margin-left: 0rem;
   }
 }
 
 .project-img {
-  width: 72%;
+  width: 75%;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;

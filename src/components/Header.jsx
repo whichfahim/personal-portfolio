@@ -18,7 +18,7 @@ function Header() {
         <h1 className="heading-main--title">Fahim Imtiaz</h1>
         <h1 className="heading-main--subtitle">I build things for the web</h1>
         <p className="heading-text">
-          I'm a software engineer with a focus on designing, prototyping, and
+          I'm a software engineer with over a year of experience designing, prototyping, and
           building exceptional and memorable digital experiences.
         </p>
         {/*<input type="button" value="PLAY" onClick={play()} />*/}

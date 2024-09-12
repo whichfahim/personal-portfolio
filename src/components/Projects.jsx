@@ -1,7 +1,9 @@
 import behance from "../assets/icons/Behance.png";
 import figma from "../assets/icons/Figma.png";
 import github from "../assets/icons/Github.png";
+import extLink from "../assets/icons/quill_link-out.png";
 
+import blackjack from "../assets/img/blackjack.png";
 import geniotech from "../assets/img/geniotech.png";
 import backtoplay from "../assets/img/backtoplay.png";
 import glasscosmetics from "../assets/img/glasscosmetics.png";
@@ -9,7 +11,7 @@ import glasscosmetics from "../assets/img/glasscosmetics.png";
 function Projects() {
   return (
     <section className="section-projects" id="projects">
-      <h1 className="u-heading-secondary">Some cool things I've built</h1>
+      <h1 className="u-heading-secondary">My Work</h1>
       <div className="project-container">
         <div className="project-img-container">
           <img src={geniotech} alt="geniotech cover" className="project-img" />
@@ -169,6 +171,46 @@ function Projects() {
                 src={github}
                 className="project-doc--icon"
                 alt="github logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="project-container">
+        <div className="project-img-container">
+          <img src={blackjack} alt="glass cover" className="project-img" />
+        </div>
+
+        <div className="project-description">
+          <h4 className="project-heading u-text-color-primary">
+            Simple Blackjack game
+          </h4>
+          <p className="project-subheading">Personal</p>
+          <p>September 2024</p>
+          <ul>
+            <li>
+              Built a simple Blackjack game using <b>HTML</b> <b>CSS</b> and <b>JavaScript</b>.
+            </li>
+            <li>
+              Allow users to draw random cards and calculate points based on Blackjack rules.
+            </li>
+            <li>Implemented a full deck of 52 cards, each represented as JavaScript objects with <b>point values</b> and corresponding <b>image URLs</b>, using an <b>array data structure</b>.</li>
+            <li>Applied core front-end development skills, including DOM manipulation, event handling, and data management using JavaScript.</li>
+            <li><strong>Link to live app below:</strong>.</li>
+          </ul>
+          <div className="project-doc--icons-container">
+            <a href="https://github.com/whichfahim/blackjack-game" target="__blank">
+              <img
+                src={github}
+                className="project-doc--icon"
+                alt="github logo"
+              />
+            </a>
+            <a href="https://whichfahim.github.io/blackjack-game/" target="__blank">
+              <img
+                src={extLink}
+                className="project-doc--icon"
+                alt="external link icon"
               />
             </a>
           </div>
